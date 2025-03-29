@@ -1,9 +1,8 @@
 import cv2
 from ultralytics import YOLO
-import matplotlib.pyplot as plt
 import numpy as np
 
-model = YOLO('face_centering/best.pt')
+model = YOLO('best.pt')
 
 cap = cv2.VideoCapture(0)
 
